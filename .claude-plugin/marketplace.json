@@ -9,7 +9,7 @@
       "name": "better-prose-writing",
       "source": "./",
       "description": "Draft or rewrite a blog post, article, essay, newsletter or op-ed so it reads as one person's writing with an opinion and real particulars.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "writing",
       "tags": ["writing", "prose", "editing", "blog", "style"]
     }
