@@ -1,0 +1,11 @@
+{
+  "name": "better-prose-writing",
+  "displayName": "Better Prose Writing",
+  "version": "0.1.0",
+  "description": "Better prose writing: drafting and rewriting blog posts, articles, essays and announcements so they read as one person's writing with an opinion and real particulars, with the author intake, the no-invented-episode rule and the tells pass.",
+  "author": { "name": "John Luther" },
+  "homepage": "https://github.com/johnluther/better-writing-plugin",
+  "repository": "https://github.com/johnluther/better-writing-plugin",
+  "license": "MIT",
+  "keywords": ["writing", "prose", "editing", "blog", "style"]
+}
