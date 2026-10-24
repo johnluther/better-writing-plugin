@@ -21,3 +21,10 @@ wrong or already fixed, add a note under it instead of removing it.
 ```
 
 ---
+
+### 2026-10-24: Documentation is not narrative prose
+**Step:** Rewrite / Shape
+**What happened:** Ran the skill over this repo's README. The README is a functional document: install commands, a file tree, a subtree command, a license line. The skill's shape rules (no headers under 800 words, every paragraph carries a checkable particular, the ending is the last point) are written for narrative prose. Applied literally, they would delete the headings and force rewrites of the commands.
+**Gap in the skill:** "Unless the author asked for that form" covers headers, but nothing covers functional blocks that carry no particular and must not be rewritten, nor the fact that a README reader arrives for the commands and not the argument.
+**What you did about it:** Rewrote only the prose. Kept the headings, their order, the code blocks and the tree untouched, and kept the one-line lead-in that introduces each block. Moved the plugin identity below the claim, since the first sentence of the README now has to earn the click.
+**Suggested fix:** Add to "The shape of the piece": "In a document (README, doc page, changelog), rewrite only the prose. Keep the functional blocks, the heading order and the lead-in for each block; apply the claim, particular and rhythm rules to the prose paragraphs alone."

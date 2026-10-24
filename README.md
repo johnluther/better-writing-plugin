@@ -1,18 +1,18 @@
 # better-prose-writing
 
-A Claude Code plugin and skills-marketplace entry for writing prose that reads
-like a person with an opinion.
-
 Model prose sounds the same because the model avoids risk, and the clichés are
 what risk avoidance sounds like. A banned-word list does not fix that: cut
 "in today's fast-paced world" and the next draft opens with "in an era of
 constant distraction". A reader trusts prose that takes a position and shows
 something that happened.
 
+`better-prose-writing` is a Claude Code plugin for prose that reads like a
+person with an opinion, listed in the `johnluther-writing` marketplace. It
+ships one skill, `better-prose-writer`, and nothing else.
+
 ## What it does
 
-The plugin ships one skill, `better-prose-writer`. It has two modes, chosen
-by the input:
+The skill has two modes, chosen by the input:
 
 - **Draft mode.** No draft was supplied. It interviews the author for a claim
   and at least one real particular, then writes.
@@ -30,9 +30,11 @@ The rules it enforces:
 - The ending is the last point. No summary, no restated thesis, no
   aphorism, no question to the reader.
 
-And one rule above all: **never invent an episode.** A paragraph with nothing
-checkable gets a bracketed ask, not a made-up fact. A fake particular is
-worse than a cliché, because the author publishes it under their name.
+One rule sits above the rest: **never invent an episode.** A paragraph with
+nothing checkable gets a bracketed ask —
+`[AUTHOR: what did you change, and what happened to your output?]` — rather
+than a made-up fact, because a fake particular is worse than a cliché: the
+author publishes it under their name.
 
 ## Install
 
@@ -70,8 +72,8 @@ better-writing-plugin/
 
 The skill lives in its own repository,
 [github.com/johnluther/better-prose-writer](https://github.com/johnluther/better-prose-writer),
-vendored here with `git subtree` so the plugin can be published as one
-unit. To pull in upstream changes:
+vendored here with `git subtree` so the plugin publishes as one unit. Pull in
+upstream changes with:
 
 ```bash
 git subtree pull --prefix=skills/better-prose-writer \
@@ -80,4 +82,4 @@ git subtree pull --prefix=skills/better-prose-writer \
 
 ## License
 
-MIT. Use freely, share widely.
+MIT. The full text is in `LICENSE`.

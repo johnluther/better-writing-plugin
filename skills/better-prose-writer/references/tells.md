@@ -62,3 +62,4 @@ needed a swap usually also needs a particular.
 | deep dive, unpack | look at |
 | elevate | improve, or say how |
 | impactful | say the effect |
+| is/are what x sounds like | is/are the result of the condition |
